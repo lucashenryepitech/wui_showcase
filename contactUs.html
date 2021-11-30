@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  
+  <title>WUI</title>
+  <link rel="icon" href="./img/WUI_logoRJTB.png" />
+  <link href="./css/index.css" type="text/css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="/app.js"></script>
+  <script src="/script/ApiCall.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="header">
+    <div id="topnav">
+      <a class="nav-link" href="./index.html">Acceuil</a>
+      <a href="#footer">Aide</a>
+      <a class="floatRight" href="#">Information</a>
+    </div>
+    <div id="headLogo">
+      <img alt="wui_logo" style=" width: 30%;" src="./img/WUI_logoRJTB.png" > 
+    </div>  
+  </div>
+  <div class="row" id="contactUs">
+    <div class="column">
+      <div id="wui_text" class="card" style="display: flex; flex-direction: column; justify-content: center; align-items: flex-start;">
+          <h1 style="color: #47CBFF">Contactez-nous</h1>
+            <label for="fname">Prénom</label>
+            <input type="text" id="fname" name="firstname" placeholder="Prenom..">
+            <label for="lname">Nom</label>
+            <input type="text" id="lname" name="lastname" placeholder="Nom..">
+            <label for="email">Email *</label>
+            <input type="text" id="email" name="email" placeholder="Email">
+            <label for="country">Country *</label>
+            <select id="country" name="country">
+              <option value="france">France</option>
+              <option value="belgium">Belgium</option>
+              <option value="italia">Italia</option>
+              <option value="germany">Germany</option>
+              <option value="others">Others</option>
+            </select>
+            <label for="lname">Objet *</label>
+            <input type="text" id="object" name="object" placeholder="Entrez ici l'objet de votre message..">
+        
+            <label for="subject">Subject *</label>
+            <textarea id="subject" name="subject" placeholder="Entrez ici votre message..." style="height:200px"></textarea>
+            <p style="color:#47CBFF;font-size:10px; margin-top: 0;">* : champ(s) obligatoire</p>
+            <input id="button_send_message" type="submit" value="Envoyer" onclick="sendButton()">      
+      </div>
+      <div id="footer">
+        <a class="nav-link" href="./contactUs.html">Contactez-nous</a>
+        <a class="nav-link" href="./team.html">Qui sommes nous</a>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./script/callApi.js"></script>
+  <script >
+    function sendButton() {
+      var firstName = document.getElementById("fname").value; 
+      var lastName = document.getElementById("lname").value; 
+      var email = document.getElementById("email").value; 
+      var country = document.getElementById("country").value; 
+      var object = document.getElementById("object").value; 
+      var subject = document.getElementById("subject").value;
+      var contact = {"firstName": firstName, "lastName":lastName, "email":email, "country":country, "object":object, "subject":subject};
+      console.log(contact);
+      if (contact.email === "" || contact.country === "" || 
+          contact.object === "" || contact.subject === "") {
+          alert("please fill all the blank");
+      } else {
+          newMessageApi(firstName, lastName, email, country, object, subject)
+          alert("message send");
+      }
+    } 
+  </script>
+</body>
+</html>
+
+

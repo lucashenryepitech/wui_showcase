@@ -1,0 +1,110 @@
+
+<html>
+  <head>
+    <title>WUI</title>
+    <link rel="icon" href="./img/WUI_logoRJTB.png" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <!-- api mapbox -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <div id="topnav">
+          <a class="nav-link" href="index.html">Acceuil</a>
+          <a href="#download">Télécharger</a>
+          <a href="#mapID">Map</a>
+          <a href="#footer">Aide</a>
+          <a class="floatRight" href="#">Information</a>
+        </div>
+        <div id="headLogo">
+          <img alt="wui_logo" id="wui_logo_img" src="./img/WUI_logoRJTB.png" > 
+        </div>  
+      </div>
+    <script>//console.log("ok: 1");newMessageApi("s", "s", "s", "f", "1", "2");console.log("ok: 2");</script>
+      <div class="row">
+        <div class="column">
+          <div id="download" class="card">
+            <div class="text_download">
+              <h2 class="text_download_title">UNE APP FAITE POUR VOUS SIMPLIFIER LA VIE.</h2>
+              <p class="text_download_paragraph">découvrez wui, une application communautaire pour vous permetre de vous deplacer en toute securité et en toute simplicité en ville</p>
+              <p class="text_download_paragraph">WUI est pour tous ceux qui perdent du temps dans leur trajet urbain. Basée sur un aspect collaboratif, notre application vous informe en temps réel des perturbations autour de vous. Que vous vous déplaciez à pied, en transport en commun ou à vélo, nous vous proposons des trajets alternatifs pour vous simplifier la vie. </p>
+            </div>
+            <div id="download_content">
+              <div id="download_content_div1">
+                <p id="download_content_div1_p">WUI est disponible sur Android et IOS. Utilisez la page contactez-nous pour tester en avant-première notre application.</p>
+                <!--img alt="flashcode_download" id="download_content_div1_i1" src="./img/flashcode.png" --> 
+              </div>
+              <div id="download_content_div2">
+                <img alt="apple_appstore" id="download_content_div2_i2" src="./img/appstore.png" > 
+                <img alt="andoïde_playstore" id="download_content_div2_i3" src="./img/playstore.png" > 
+              </div>
+            </div>
+          </div>
+          <div id="wui_text" class="card">
+            <h1 id="wui_text_content" >Wide Urban Information</h1>
+          </div>
+          <div class="card_content_h">
+            <div class="card_content_v">
+              <img alt="screen1" class="scr_img_vertical" src="./img/screen1.png">
+              <img alt="screen2" class="scr_img_vertical" src="./img/screen2.png">
+            </div>
+            <img alt="screen3" class="scr_img_horizontal" src="./img/screen6.png">
+            <img alt="screen4" class="scr_img_horizontal" src="./img/screen4.png">
+            <img alt="screen5" class="scr_img_horizontal" src="./img/screen5.png">
+            <img alt="screen5" class="scr_img_horizontal" src="./img/screen7.png">
+          </div>
+    
+        <div id="mapID">
+          <div id="slogan_div" class="card" >
+            <h2 class="text_slogan_div">Simplicité</h2>
+            <h2 class="text_slogan_div">Ergonomie</h2>
+            <h2 class="text_slogan_div">Fiabilité</h2>
+          </div>
+          <div class="card" style="display: flex; width: 100%; padding:0;">
+            <div id="map"></div>
+          </div>
+        </div>
+        
+          <div class="card_values">
+              <h1 style="color:white; text-align: center;" >De nombreuses fonctionnalités</h1>
+              <p style="color:white; text-align: center;">Une carte GPS dynamique permettant de se localiser et de se déplacer facilement.</p>
+              <p style="color:white; text-align: center;">Des balises représentant des perturbations ou des lieux d’intérêt, pour les éviter ou de choisir de vous y rendre.</p>
+              <p style="color:white; text-align: center;">Un itinéraire pour vous rendre à l'adresse de votre choix sans passer par le moindre ralentissement.</p>
+              <p style="color:white; text-align: center;">Un bouton de signalement pour partager à toute la communauté la balise de votre choix.</p>
+              <p style="color:white; text-align: center;">Un profil personnalisé.</p>
+          </div>
+          
+          <div class="card" style="width: 100%; padding: 0;" >
+            <img alt="footer_picture" style="width: 100%;" src="./img/picture.jpg" > 
+          </div>
+          
+        </div>
+        
+      </div>
+    
+      <div id="footer">
+        <a class="nav-link" href="./contactUs.html">Contactez-nous</a>
+        <a class="nav-link" href="./team.html">Qui sommes nous</a>
+      </div>
+      <!--
+<input id="button_send_message" type="submit" value="messages" onclick="GetAllMessageApi()">
+      <input id="button_send_message" type="submit" value="waypoints" onclick="GetAllWaypointsApi()">
+      -->
+      
+    </div>
+    <!-- TODO: add CDN library here -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./script/callApi.js"></script>
+    <script src="./script/mapBox.js"></script>
+  </body>
+</html>
