@@ -1,0 +1,180 @@
+/* pointers */
+
+.markerAccident {
+    background-image: url('../img/pointer/wui-point-accident.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerClosedRoad {
+    background-image: url('../img/pointer/wui-point-blocked-road.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.markerTraficJam {
+    background-image: url('../img/pointer/wui-point-bottleneck.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerBus {
+    background-image: url('../img/pointer/wui-point-bus.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerCBus {
+    background-image: url('../img/pointer/wui-point-cbus.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerConcer {
+    background-image: url('../img/pointer/wui-point-concer.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerExhibition {
+    background-image: url('../img/pointer/wui-point-exhibition.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerFire {
+    background-image: url('../img/pointer/wui-point-fire.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerFireFighter {
+    background-image: url('../img/pointer/wui-point-firefighter.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerFleaMarket {
+    background-image: url('../img/pointer/wui-point-flea-market.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerFuni {
+    background-image: url('../img/pointer/wui-point-funi.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerManifestation {
+    background-image: url('../img/pointer/wui-point-manifestation.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerMarket {
+    background-image: url('../img/pointer/wui-point-market.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerMerto {
+    background-image: url('../img/pointer/wui-point-metro.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerOther {
+    background-image: url('../img/pointer/wui-point-other.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerPickPocket {
+    background-image: url('../img/pointer/wui-point-pickpocket.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerPolice {
+    background-image: url('../img/pointer/wui-point-police.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerPublicTransit {
+    background-image: url('../img/pointer/wui-point-public-transit.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerStreetArt {
+    background-image: url('../img/pointer/wui-point-street-art.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerTram {
+    background-image: url('../img/pointer/wui-point-tram.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.markerWorks {
+    background-image: url('../img/pointer/wui-point-works.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.markerNew {
+    background-image: url('../img/pointer/wui-point-new.png');
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+
+
+
+

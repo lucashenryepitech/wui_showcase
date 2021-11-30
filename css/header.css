@@ -1,0 +1,38 @@
+/* Style the top navigation bar */
+#topnav {
+    overflow: hidden;
+    background-color: #00162B;
+  }
+  
+  /* Style the topnav links */
+  #topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 449px) { #topnav a {  font-size: 12px; }}
+  @media only screen and (max-width: 380px) { #topnav a {  font-size: 11px; }}
+  @media only screen and (max-width: 362px) { #topnav a {  font-size: 10px; }}
+  @media only screen and (max-width: 349px) { #topnav a {  font-size: 9px; }}
+  @media only screen and (max-width: 329px) { #topnav a {  font-size: 8px; }}
+  
+  /* Change color on hover */
+  #topnav a:hover {
+    background-color: #47CBFF;
+    color: black;
+  }
+  
+  /* Head Blog Title Logo */
+  #headLogo {
+    padding: 30px;
+    text-align: center;
+    background: white;
+  }
+  
+  #headLogo h1 {
+    font-size: 50px;
+  }

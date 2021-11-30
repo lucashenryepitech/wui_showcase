@@ -1,0 +1,298 @@
+@import "./header.css"; 
+@import "./footer.css"; 
+@import "./pointers.css"; 
+@import "./contactUs.css"; 
+@import "./general.css"; 
+
+@media only screen and (max-width: 749px) {
+  #download {
+    display: flex; 
+    flex-direction: column; 
+    background-color: #00162B; 
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  #download_content {
+    width: 100%; display: flex; flex-direction: column; justify-content: space-around; align-items: center; padding-top : 30px;
+  }
+
+  .text_download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; 
+  }
+
+  .text_download_title{
+    text-align: center;
+  }
+
+  .text_download_paragraph{
+    text-align: center;
+  }
+
+  #slogan_div { 
+    justify-items: center;
+    background-color: #00162B;
+  }
+  #wui_logo_img { 
+    width: 60%;
+  }
+
+  .card_content_h {
+    width : 100%;
+    background-color: white;
+    
+  }
+
+  .card_content_v {
+    width : 100%;
+
+  }
+
+  .scr_img_vertical {
+    width: 49%;
+   }
+
+   .scr_img_horizontal {
+    width: 49%;
+   }
+}
+
+@media only screen and (min-width: 750px) {
+  #download {
+    display: flex; 
+    flex-direction: row; 
+    background-color: #00162B; 
+    height: 50vw;
+  }
+  
+  #download_content {
+    width: 50%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding: 3%;
+  }
+
+  .text_download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 3%;
+  }
+
+  .text_download_title{
+    text-align: start;
+  }
+
+  .text_download_paragraph{
+    text-align: justify;
+  }
+
+  #slogan_div { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #00162B;
+  }
+  #wui_logo_img { 
+    width: 40%;
+  }
+
+  .card_content_h {
+    display: inline-block;
+    padding : 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+  }
+
+  .card_content_v {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+    width: 15%; 
+    align-items: center;
+  }
+
+  .scr_img_vertical {
+    width: 65%;
+   }
+
+   .scr_img_horizontal {
+    width: 20%;
+   }
+
+  
+}
+
+#slogan_div > h2 {
+  font-size : 3.4vw
+}
+
+.card_values {
+  background-color: #00162B; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  padding: 7vw;
+}
+
+.card_values > p{
+  font-size: 1.6vw;
+}
+
+.card_values > h1{
+  font-size: 3.4vw;
+}
+
+#download_content_div1 {
+  display: flex; flex-direction: row; justify-content: space-around; align-items: center;
+}
+
+#download_content_div1_p {
+  color: white; 
+  width: 60%; 
+  margin: 0px; 
+  font-style: italic;
+  font-size: 1.6vw;
+}
+
+#download_content_div1_i1 {
+  width: 12.5vw;
+  
+}
+
+#download_content_div2 {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  padding-top: 3vw;
+}
+
+#download_content_div2_i2 {
+  width: 6vw;
+  height: 6vw;
+  margin-right: 3vw;
+}
+#download_content_div2_i3 {
+  width: 6vw;
+  height: 6vw;
+  margin-left: 3vw;
+}
+
+.text_download_title{
+  margin: 0px;
+  color: white;
+  font-size: 2.8vw;
+}
+
+.text_download_paragraph{
+  margin: 0px;
+  padding-top : 25px;
+  color: white;
+  font-size: 1.6vw;
+}
+.text_slogan_div {
+  text-align:center;
+  color: #47CBFF;
+}
+
+.logo-nav-bar{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 8%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 0;
+    background: #f1f1f1;
+  }
+
+  /* Create two unequal columns that floats next to each other */
+  
+  
+  /* column */
+  .column {   
+    float: left;
+    width: 100%;
+  }
+  
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin: 0px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+
+  #map {
+    height: 500px; 
+    width: 100%;
+    bottom: 2;
+    width: 100%;
+  }
+
+  .no_padding_margin {
+    padding : 0px;
+    margin : 0px;
+  }
+
+
+  
+  #wui_text {
+    display: flex; flex-direction: row; justify-content: center; align-items: flex-end;
+  }
+   #wui_text_content {
+    color: #47CBFF;
+    font-size: 3.4vw;
+   }
+
+   
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .column {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
