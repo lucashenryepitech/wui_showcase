@@ -44,7 +44,7 @@ async function GetAllWaypointsApi(){
                     case 'CBus':
                     el.className = 'markerCBus';
                     break;
-                    case 'Concert':
+                    case 'Concer':
                     el.className = 'markerConcer';
                     break;
                     case 'Exhibition':
@@ -96,7 +96,7 @@ async function GetAllWaypointsApi(){
                     el.className = 'markerNew';
                     break;
                     default:
-                    el.className = '';
+                    el.className = 'markerNew';
                     break;
 
                 }
