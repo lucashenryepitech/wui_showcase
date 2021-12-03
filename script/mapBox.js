@@ -44,7 +44,7 @@ async function GetAllWaypointsApi(){
                     case 'CBus':
                     el.className = 'markerCBus';
                     break;
-                    case 'Concer':
+                    case 'Concert':
                     el.className = 'markerConcer';
                     break;
                     case 'Exhibition':
