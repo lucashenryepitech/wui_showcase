@@ -86,7 +86,7 @@ async function GetAllWaypointsApi(){
                     case 'StreetArt':
                     el.className = 'markerStreetArt';
                     break;
-                    case '':
+                    case 'Tram':
                     el.className = 'markerTram';
                     break;
                     case 'Roadworks':
